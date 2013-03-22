@@ -15,7 +15,7 @@
 #define timerTime 5.0
 
 static const NSInteger kGANDispatchPeriodSec = 30;
-static NSString *const kAnalyticsAccountId = @"UA-33544501-1";
+static NSString *const kAnalyticsAccountId = @"UA-30372406-1";
 
 @interface PresentationTableViewController ()
 

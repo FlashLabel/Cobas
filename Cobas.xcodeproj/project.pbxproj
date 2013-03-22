@@ -3693,7 +3693,7 @@
 		EB7AF1721590AD1100B7AF44 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0430;
+				LastUpgradeCheck = 0450;
 			};
 			buildConfigurationList = EB7AF1751590AD1100B7AF44 /* Build configuration list for PBXProject "Cobas" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -4860,6 +4860,8 @@
 		EB7AF19A1590AD1100B7AF44 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roche Diagnostics LTD";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roche Diagnostics LTD";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cobas/Cobas-Prefix.pch";
 				INFOPLIST_FILE = "Cobas/Cobas-Info.plist";
@@ -4869,6 +4871,8 @@
 					"\"$(SRCROOT)/Cobas\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40659989-1AA9-458D-8475-DE54D0A688D6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "40659989-1AA9-458D-8475-DE54D0A688D6";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
@@ -4878,6 +4882,8 @@
 		EB7AF19B1590AD1100B7AF44 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Distribution: Roche Diagnostics LTD";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution: Roche Diagnostics LTD";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Cobas/Cobas-Prefix.pch";
 				INFOPLIST_FILE = "Cobas/Cobas-Info.plist";
@@ -4887,6 +4893,8 @@
 					"\"$(SRCROOT)/Cobas\"",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "40659989-1AA9-458D-8475-DE54D0A688D6";
+				"PROVISIONING_PROFILE[sdk=iphoneos*]" = "40659989-1AA9-458D-8475-DE54D0A688D6";
 				TARGETED_DEVICE_FAMILY = 2;
 				VALID_ARCHS = armv7;
 				WRAPPER_EXTENSION = app;
